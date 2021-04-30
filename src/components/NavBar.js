@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { SocailIcon } from 'react-social-icons'
 export default function NavBar() {
     return (
         <header className="bg-blue-600">
@@ -27,11 +26,6 @@ export default function NavBar() {
                         About Me!
                   </NavLink>
                 </nav>
-                {/* <div className="inline-flex py-3 px-3 my-6 ">
-                    <SocailIcon url="https://twitter.com/sandyabhi047" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
-                    <SocailIcon url="https://github.com/sandyabhi" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
-                    <SocailIcon url="https://www.linkedin.com/in/sandeep-kumar-patel-3936291b7/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
-                </div> */}
             </div>
         </header>
     )

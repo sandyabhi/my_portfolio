@@ -31,7 +31,7 @@ export default function About() {
         <main className="relative">
             <img
                 src={image}
-                alt="plumeria background"
+                alt="background"
                 className="absolute w-full"
             />
             <div className="p-10 lg:pt-48 container mx-auto relative">
